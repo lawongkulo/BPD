@@ -1,0 +1,16 @@
+@media print {
+body{padding:0}
+#post-wrapper{width:100%;margin:0 auto;}
+.post {background:#fff;margin:0 0 15px;padding:15px;box-shadow:none;border:none;}
+.post blockquote{background:transparent;color:#666;border:none;}
+.share-box,#BackToTop,.search-form,.minima3-search,.breadcrumbs,.halaman,.blogouter-wrapper,#blog-pager,#menu-wrap,#sidebar-wrapper,#related_posts,#comments,#footer-wrapper,#header-wrapper{display:none;visibility:hidden;width:0;height:0;}}
+
+@media print {
+body{padding:0}
+#post-wrapper{width:100%;margin:0 auto;}
+.post {background:#fff;margin:0 0 15px;padding:15px;box-shadow:none;border:none;}
+h1.post-title {border-bottom:none;}
+.post blockquote{background:transparent;color:#666;border:none;}
+.articleAuthor,.sharepost,#BackToTop,.search-form,.minima3-search,.breadcrumbs,.halaman,.blogouter-wrapper,#blog-pager,#menu-wrap,#sidebar-wrapper,#related_posts,#comments,#footer-wrapper,#header-wrapper{opacity:0;display:none;visibility:hidden;width:0;height:0;}
+.status-msg-border{border:none;}
+.Stats .blind-plate{border-top:none;}}
